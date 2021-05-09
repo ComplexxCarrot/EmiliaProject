@@ -1,0 +1,27 @@
+@media (max-width:670px){ /*mobile*/
+    
+    span .grid{
+        display: block;
+    }
+    .headerkanan{
+        display: none;
+    }
+    .content p{
+        font-size: medium;
+        margin-top: 10px;
+    }
+    .content ul li{
+        font-size:medium;
+        margin-top: 10px;
+    }
+    .point-img{
+        margin-left: 0px;
+        width: 660px;
+    }
+
+    
+}
+
+@media (max-width:1000px){
+    
+}
