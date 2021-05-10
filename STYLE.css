@@ -47,6 +47,18 @@ body {
     border-radius: 4px;
     margin-top: 25px;
     font-size: x-large;
+    animation-name: color-change;
+    animation-duration: 4s;
+    animation-iteration-count: infinite
+}
+
+@keyframes color-change {
+    0% {color:#3353A1}
+    25% {color:aqua}
+    50% {color:burlywood}
+    75% {color:coral}
+    100% {color:darkgreen}
+
 }
 
 .headerkiri h1{
@@ -83,7 +95,7 @@ body {
 }
 
 .heading-img {
-    background-image: url("heading-image.jpg");
+    background-image: url("https://complexxcarrot.github.io/EmiliaProject/heading-image.jpg");
     filter: blur(8px);
     -webkit-filter: blur(8px);
     height: 85vh;
@@ -178,12 +190,6 @@ i {
     flex-direction: row;
     padding: 25px;
 }
-
-.point-img {
-    display: flex;
-    flex-direction: row;
-}
-
 .image{
     width: 100%;
     background-repeat: no-repeat;
