@@ -19,9 +19,68 @@
         width: 660px;
     }
 
+    .more-title h1{
+        color: white;
+        font-size: 25px;
+        font-weight: 500;
+    }
     
+    .more-title h2{
+        color: white;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .ani-title h1 {
+        color: white;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    .ani-title h2 {
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+    }
 }
 
 @media (max-width:1000px){
+    .ani-title h1 {
+        font-size: 22px;
+    }
+
+    .ani-title {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .more-title {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .divider {
+        flex-direction: column;
+        justify-content: center;
+    }
     
+    .contributors {
+        flex-direction: column;
+    }
+
+    .footer{
+        flex-direction: column;
+    }
+
+    .left-footer{
+        flex-direction: column;
+    }
+
+    .right-footer{
+        flex-direction: row-reverse;
+    }
 }
