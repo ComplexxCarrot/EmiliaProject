@@ -178,6 +178,12 @@ i {
     flex-direction: row;
     padding: 25px;
 }
+
+.point-img {
+    display: flex;
+    flex-direction: row;
+}
+
 .image{
     width: 100%;
     background-repeat: no-repeat;
